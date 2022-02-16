@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    font-family: 'VT323', monospace;
+}
+body {
+    font-family: 'VT323', monospace;
+    background-color: #463eb3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    display: flex;
+    flex-direction: column;
+    
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.calculadora {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: darkslategrey;
+    width: 360px;
+    height: 500px;
+    border-radius: 40px;
+    border: 3px solid black;
+
+}
+.calculadora td button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border: 3px solid whitesmoke;
+    background-color: thistle;
+    border-radius: 40px;
+}
+.calculadora td button:hover{
+    background-color: yellow;
+}
+#resultado {
+    display: block;
+    text-align: right;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 25px;
+    border: solid 3px whitesmoke;
+    background-color: gray;
+}
